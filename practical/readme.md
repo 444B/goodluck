@@ -62,7 +62,7 @@ The details of the ftp username and password will be given at the time of the ex
 
 #### SSH:
 Now that you have your username and password, you may SSH into the Exam Server. </br>
-(the IP address is xxx.xxx.xxx.xxx) (this will be updated at the time of the practical)</br>
+(the IP address is 192.168.0.6) (this will be updated at the time of the practical)</br>
 Once in, you will have to create a new file called "artifact" in your current directory before proceeding to find the admin account details</br>
 Once you have the admin account details, its a home run to the finish line</br>
 
