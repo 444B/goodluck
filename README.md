@@ -10,5 +10,5 @@ You can proceed to start with the theory and then the practical but there is no 
 
 It is not necesary to clone this repository however if it is more comfortable for you to navigate via CLI or even to grab a copy of certain files, you may run the following command
 ```shell
-git clone 
+git clone https://github.com/444B/goodluck.git
 ```
