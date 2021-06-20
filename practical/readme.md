@@ -1,4 +1,4 @@
- asIntroducttion:
+Introducttion:
 In this section you will have to put into practice some of the things we have been learning over the last few weeks. 
 Some of the lessons are obvious such as command line and Linux.
 Some of the lessons are not so obvious such as learning how to find answers, never giving up and discovering this massive world of computers and cybersecurity
