@@ -56,7 +56,8 @@ The result of that search is your username that you will use to SSH into the Exa
 The password for logging in via ssh is specific to each user. </br>
 You can find your password by using the FTP (File Transfer Protocol) to fetch a file from the Exam Server that will instruct you on how to find your password </br>
 </br>
-Once connected to via ftp to the server
+Once connected to the ftp server, read the readme and continue with the excercise
+The details of the ftp username and password will be given at the time of the exam
 
 
 #### SSH:
