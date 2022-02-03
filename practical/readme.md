@@ -1,70 +1,83 @@
 # Introducttion:
-In this section you will have to put into practice some of the things we have been learning over the last few weeks. 
+In this section you will put into practice some of the skills we have been developing over the last few weeks. 
 </br>
 Some of the lessons are obvious such as command line and Linux.
 </br>
-Some of the lessons are not so obvious such as learning how to find answers, never giving up and always learning something new
+Some of the lessons are not so obvious such as learning how to find answers, never giving up and always learning something new.
 </br>
-Read this entire page from top to bottom before beginning
+Read this entire page from top to bottom before beginning. There is a compulsory 10 minute reading time before starting the exam.
 
 ### Setup:
-- You will need to be connected to a Local Area Network that has the Exam Server connected. The Exam Server in this case is a CentOS Server running on 444B's computer via Virtualbox.
-- You will need to be running a distribution of Linux that you are familiar with. The following protocols will be used and you may need to be familiar with your distro's package manager if you lack any of the software for specific commands. The commands you may need to download are:
-  - Ftp
+- You will need to be running a distribution of Linux that you are familiar with. 
+- Required packages/software
+  - VIM
   - SSH
-  - GIT (if you want to copy this repository)
-- Any other software or commands should come installed on your computer but feel free to make use of additional resources to get the job done
-
-### Getting stuck:
-In the event of being stuck this is the following procedure:
-- read any previous steps and documentation to make sure you fully understand
-- read any readme.txt that you find
-- if there is something you dont understand, reread the documentation
-- google and use man pages
-- if a command fails and returns some error text, google/search it if it doesnt make sense to you
-- should personal help be requested, you will need to provide adequate evidence of what you have tried so far
+  - GIT
+- You can access the cloud environment from any OpenSSH compatible terminal, whether it is on Windows, Linux or Mac.
+- You will require access to your private SSH key to access the server. If you have lost you private key, you can generate a new one and provide the instructor with the public key which they will place in the server in your user account.
+- You are free to use whatever resources you can find on the internet and are encouraged to take breaks and grab a coffee when you are stuck. Just remember to keep an eye on the time :)
 
 
 # The practical:
-The test has begun</br>
-The test is now over</br>
-The test results have been recorded on the Exam Sever under /home/admin/results/ and everyone has failed.
+The test has begun.</br>
+The test is now over.</br>
+The test results have been recorded on the Exam Server and everyone has failed.
 </br>
 </br>
 
-**The objective** You will need to connect to the Exam server via SSH as the admin user, login and change the result to a Pass
-</br>
-The Exam Server has many user accounts on it. Root, admin, and a few classified ones (admin does not mean the same as root)
-</br>
-You will need to perform the following steps:
-1. Find your username for logging in to the Exam Server
-2. Find your password
-3. Log in
-4. Find the admin username and password
-5. Log in
-6. Pass
+**The objective** You have 3 hours to connect to the Exam server via SSH, locate the file and change the result to a Pass.
 
-#### Finding Username:
-The username for each account is somewhere in the haystack.txt file that is in this repository (located in /goodluck/practical/haystack.txt )
-Search the haystack.txt file for your Username. It is linked to your first name
-</br>
-The exact spelling of your first name may be requested if there are any issues with this step
-</br>
-The result of that search is your username that you will use to SSH into the Exam Server
+There are 4 tasks in this exam:
+1. Find your username for the server, in the task userName
+2. Find the IP address of the server, in the task serverIP
+3. Find the location of the file in the server, in the task fileLocation.
+4. Gain writing access to the file, in the task getPermission.
+5. Make the change, completing the practical section of this exam.
 
-#### Password:
-The password for logging in via ssh is specific to each user. </br>
-You can find your password by using the FTP (File Transfer Protocol) to fetch a file from the Exam Server that will instruct you on how to find your password </br>
-</br>
-Once connected to the ftp server, read the readme and continue with the excercise
-The details of the ftp username and password will be given at the time of the exam
+### userName
+The userName for the server is in the haystack.txt file. 
+
+Search the haystack.txt file for your userName.
+There are 393,216 lines of information in this file. 
+Each line has an pair of Initials and encoded information on the right.
+You will have to figure out the relationship between your initials on the left and the encoded information on the right.
+When you decipher the encoding and locate the correct combination, you will see your userName.
+
+### serverIP
+The serverIP is in the serverHash.txt file.
+
+This section requires teamwork.
+
+There are 1,000 servers on this page and one of them is the correct IP for the cloud instance with your results, which you need to change. 
+The IPs on the left have their corresponding Hash result on the right.
+
+You will need to create a string that is 6 characters long, formed from the initials of your group, in capitals and from youngest to oldest. We will call this the groupString.
+
+Without speaking, figure out, communicate and share the groupString with each other.
+
+Generate the Hash of the groupString using any availible tool to locate it in the serverHash.txt file, which will show you the corresponding correct IP.
+You may have to research common types of Hashes functions.
+
+Once that is known, you can connect to the server as seen below
+``` shell
+ssh -i /path/to/private_key <userName>@<serverIP>
+```
+### fileLocation
 
 
-#### SSH:
-Now that you have your username and password, you may SSH into the Exam Server. </br>
-(the IP address is 192.168.0.6) (this will be updated at the time of the practical)</br>
-Once in, you will have to create a new file called "artifact" in your current directory before proceeding to find the admin account details</br>
-Once you have the admin account details, its a home run to the finish line</br>
+### getPermission
+
+
+### Getting stuck:
+In the event of being stuck this is the following procedure:
+- read any previous steps and read.me's to make sure you fully understand what the task is.
+- if there is something you dont understand, reread the documentation
+- google and use man pages
+- if a command fails and returns some error text, google/search it
+- should personal help be requested, you will need to provide adequate evidence of what you have tried so far
+
+
+
 
 Good luck!
 
