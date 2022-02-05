@@ -27,6 +27,8 @@ The test results have been recorded on the Exam Server and everyone has failed.
 
 **The objective** You have 3 hours to connect to the Exam server via SSH, locate the file and change the result to a Pass.
 
+![Student Exam Overview](https://github.com/444B/goodluck/blob/Second-Draft/practical/Student%20Exam%20Overview.png?raw=true "Student Exam Overview")
+
 There are 4 tasks in this exam:
 1. Find your username for the server, in the task userName
 2. Find the IP address of the server, in the task serverIP
