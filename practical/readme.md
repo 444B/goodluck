@@ -1,9 +1,9 @@
-# Introducttion:
+# Introduction:
 In this section you will put into practice some of the skills we have been developing over the last few weeks. 
 </br>
 Some of the lessons are obvious such as command line and Linux.
 </br>
-Some of the lessons are not so obvious such as learning how to find answers, never giving up and always learning something new.
+Some of the lessons are not so obvious such as learning how to find answers, never giving up, teamwork and troubleshooting.
 </br>
 Read this entire page from top to bottom before beginning. There is a compulsory 10 minute reading time before starting the exam.
 
@@ -39,24 +39,24 @@ The userName for the server is in the haystack.txt file.
 
 Search the haystack.txt file for your userName.
 There are 393,216 lines of information in this file. 
-Each line has an pair of Initials and encoded information on the right.
+Each line has an pair of your Initials on the left and encoded information on the right.
 You will have to figure out the relationship between your initials on the left and the encoded information on the right.
-When you decipher the encoding and locate the correct combination, you will see your userName.
+When you decipher the encoding and locate the correct combination, you will see your userName on the same line.
 
 ### serverIP
 The serverIP is in the serverHash.txt file.
 
-This section requires teamwork.
+This section requires teamwork. When you are ready to begin this session, signal the Instructor. Once everyone is ready, the instrcutor will announce that you can start talking to each other.
 
-There are 1,000 servers on this page and one of them is the correct IP for the cloud instance with your results, which you need to change. 
+There are 1,000 servers on this page and one of them is the correct IP for the cloud instance with your results.
 The IPs on the left have their corresponding Hash result on the right.
 
-You will need to create a string that is 6 characters long, formed from the initials of your group, in capitals and from youngest to oldest. We will call this the groupString.
+You will all need to create a string that is 6 characters long, formed from the initials of your group, in capitals and from youngest to oldest. We will call this the groupString.
 
-Without speaking, figure out, communicate and share the groupString with each other.
+Your task is to figure out, communicate and share the groupString with each other and correctly locate the serverIP together.
 
 Generate the Hash of the groupString using any availible tool to locate it in the serverHash.txt file, which will show you the corresponding correct IP.
-You may have to research common types of Hashes functions.
+You may have to research common types of Hashing functions and use trial and error.
 
 Once that is known, you can connect to the server as seen below
 ``` shell
@@ -72,14 +72,12 @@ ssh -i /path/to/private_key <userName>@<serverIP>
 In the event of being stuck this is the following procedure:
 - read any previous steps and read.me's to make sure you fully understand what the task is.
 - if there is something you dont understand, reread the documentation
-- google and use man pages
+- google and use man pages / tldr
 - if a command fails and returns some error text, google/search it
 - should personal help be requested, you will need to provide adequate evidence of what you have tried so far
 
 
-
-
-Good luck!
+# Good luck!
 
 
 
