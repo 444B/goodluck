@@ -64,9 +64,22 @@ Once that is known, you can connect to the server as seen below
 ssh -i /path/to/private_key <userName>@<serverIP>
 ```
 
-
-
 ### getPermission
+You have succesully made it into the server.
+You will find in your users home directory a directory called diretoryMaze.
+
+All you need to do now is to change the results in /home/administrator/results.json
+The file can be read by everyone and only edited by the "administrator" user
+The Permissions are as such
+-rwxr--r--
+
+To edit this file, you will need the password for the "administrator" user
+The password is in a file called "loginCredential.txt" somewhere in directoryMaze
+directoryMaze is a series of 16 folders 0-F (hex counting) where each folder has 16 folders inside and each of those folders has 16 folders inside
+There are a total of 4,368 sub folders here
+You will need a faster way to map out the directories or find the loginCredentials.txt file within the directories
+
+Once you have read the contents of the loginCredentials.txt file, you should be able to edit your mark and complete the practical
 
 
 ### Getting stuck:
