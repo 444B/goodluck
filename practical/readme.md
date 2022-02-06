@@ -35,7 +35,7 @@ There are 4 tasks in this exam:
 3. Gain writing access to the file, in the task getPermission.  
 4. Make the change, completing the practical section of this exam.  
 
-
+---
 ### userName
 
 The userName for the server is in the haystack.txt file. 
@@ -46,6 +46,7 @@ Each line has an pair of your Initials on the left and encoded information on th
 You will have to figure out the relationship between your initials on the left and the encoded information on the right.  
 When you decipher the encoding and locate the correct combination, you will see your userName on the same line.  
 </br>
+---
 ### serverIP
 
 The serverIP is in the serverHash.txt file.
@@ -66,7 +67,7 @@ Once that is known, you can connect to the server as seen below
 ``` shell 
 ssh -i /path/to/private_key <userName>@<serverIP>
 ```
-
+---
 ### getPermission  
 You have succesully made it into the server.  
 You will find in your users home directory a directory called diretoryMaze.  
@@ -84,7 +85,7 @@ You will need a faster way to map out the directories or find the loginCredentia
 
 Once you have read the contents of the loginCredentials.txt file, you should be able to edit your mark and complete the practical  
 
-
+---
 ### Getting stuck:
 In the event of being stuck this is the following procedure:  
 - read any previous steps and read.me's to make sure you fully understand what the task is.  
