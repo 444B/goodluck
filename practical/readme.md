@@ -139,7 +139,7 @@ directoryMaze/
 │   │   └── F  
 ... ETC ...  
 
-Once you have read the contents of the loginCredentials.txt file, you should be able to edit your mark and complete the practical  
+Once you have read the contents of the loginCredentials.txt file, you should be able to switch users to the administrator, edit your mark and complete the practical  
 
 ---
 ### Getting stuck:
