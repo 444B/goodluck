@@ -83,6 +83,62 @@ directoryMaze is a series of 16 folders 0-F (hex counting) where each folder has
 There are a total of 4,368 sub folders here  
 You will need a faster way to map out the directories or find the loginCredentials.txt file within the directories  
 
+Here is a representation of what the file subsystem looks like
+directoryMaze/
+├── 0
+│   ├── 0
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 2
+│   │   ├── 3
+│   │   ├── 4
+│   │   ├── 5
+│   │   ├── 6
+│   │   ├── 7
+│   │   ├── 8
+│   │   ├── 9
+│   │   ├── A
+│   │   ├── B
+│   │   ├── C
+│   │   ├── D
+│   │   ├── E
+│   │   └── F
+│   ├── 1
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 2
+│   │   ├── 3
+│   │   ├── 4
+│   │   ├── 5
+│   │   ├── 6
+│   │   ├── 7
+│   │   ├── 8
+│   │   ├── 9
+│   │   ├── A
+│   │   ├── B
+│   │   ├── C
+│   │   ├── D
+│   │   ├── E
+│   │   └── F
+│   ├── 2
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 2
+│   │   ├── 3
+│   │   ├── 4
+│   │   ├── 5
+│   │   ├── 6
+│   │   ├── 7
+│   │   ├── 8
+│   │   ├── 9
+│   │   ├── A
+│   │   ├── B
+│   │   ├── C
+│   │   ├── D
+│   │   ├── E
+│   │   └── F
+... ETC ...
+
 Once you have read the contents of the loginCredentials.txt file, you should be able to edit your mark and complete the practical  
 
 ---
