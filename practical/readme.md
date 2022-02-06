@@ -34,8 +34,10 @@ There are 4 tasks in this exam:
 2. Find the IP address of the server, in the task serverIP  
 3. Gain writing access to the file, in the task getPermission.  
 4. Make the change, completing the practical section of this exam.  
-</br>
+
+
 ### userName
+
 The userName for the server is in the haystack.txt file. 
 </br>
 Search the haystack.txt file for your userName.  
@@ -45,6 +47,7 @@ You will have to figure out the relationship between your initials on the left a
 When you decipher the encoding and locate the correct combination, you will see your userName on the same line.  
 </br>
 ### serverIP
+
 The serverIP is in the serverHash.txt file.
 </br>
 This section requires teamwork. When you are ready to begin this session, signal the Instructor. Once everyone is ready, the instrcutor will announce that you can start talking to each other.
