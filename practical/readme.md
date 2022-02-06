@@ -37,7 +37,6 @@ There are 4 tasks in this exam:
 
 ---
 ### userName
-
 The userName for the server is in the haystack.txt file. 
 </br>
 Search the haystack.txt file for your userName.  
@@ -45,8 +44,9 @@ There are 393,216 lines of information in this file.
 Each line has an pair of your Initials on the left and encoded information on the right.  
 You will have to figure out the relationship between your initials on the left and the encoded information on the right.  
 When you decipher the encoding and locate the correct combination, you will see your userName on the same line.  
-</br>
+
 ---
+
 ### serverIP
 
 The serverIP is in the serverHash.txt file.
